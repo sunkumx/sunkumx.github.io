@@ -18,3 +18,21 @@
     <a href="{{site.resume}}" target="_blank" class="arrow-link">View My Resume</a>
   </div>
 </section>
+
+<section class="section certifications">
+  <div class="section__title">Certifications</div>
+  <div class="section__content">
+    <div class="certifications">
+      {% for cert in site.data.certifications %}
+      <div class="certification">
+        <div class="cert__details">
+          <div class="cert__name">
+            <a href="{{cert.url}}" target="_blank">{{cert.name}}</a>
+          </div>
+          <div class="cert__issuer">{{cert.issuer}} — {{cert.year}}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

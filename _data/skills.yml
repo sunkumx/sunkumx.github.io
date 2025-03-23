@@ -18,9 +18,10 @@ tools:
   - item: Jira
   - item: Git & Github
   - item: Power BI
+  - item: Jupyter Notebook
   
 
-business analysis:
+business_analysis:
   - item: Business Requirement Document
   - item: Functional Requirement Document
   - item: User Acceptance Test

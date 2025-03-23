@@ -1,33 +1,29 @@
 languages:
-  - item: JavaScript (ES6)
-  - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
   - item: Python
   - item: SQL
   - item: R
 
 frameworks:
-  - item: Ember & Glimmer
-  - item: React
-  - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
+  - item: Scikit Learn
+  - item: Pytorch
+  - item: Tensorflow
+  - item: Keras
+  - item: Pandas
+  - item: Numpy
+  - item: Matplotlib
+  - item: Spacy
+  
 
 tools:
-  - item: Bash
+  - item: Jira
   - item: Git & Github
-  - item: Gulp & Grunt
-  - item: Chrome DevTools
-  - item: Postman
-  - item: MongoDB
+  - item: Power BI
+  
 
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
+business analysis:
+  - item: Business Requirement Document
+  - item: Functional Requirement Document
+  - item: User Acceptance Test
+  - item: Stakeholder Management
+  - item: Agile Methodologies
   - item: User Testing

@@ -29,7 +29,12 @@
           <div class="cert__name">
             <a href="{{cert.url}}" target="_blank">{{cert.name}}</a>
           </div>
-          <div class="cert__issuer">{{cert.issuer}} — {{cert.year}}</div>
+          <div class="cert__info">
+            {{cert.issuing_organisation}} — {{cert.duration}}
+          </div>
+          <div class="cert__credential">
+            Credential ID: {{cert.credential_id}}
+          </div>
         </div>
       </div>
       {% endfor %}

@@ -1,6 +1,7 @@
 languages:
   - item: Python
   - item: SQL
+  - item: Pyspark
   - item: R
 
 frameworks:
@@ -11,6 +12,7 @@ frameworks:
   - item: Pandas
   - item: Numpy
   - item: Matplotlib
+  - item: Seaborn
   - item: Spacy
   
 
@@ -19,6 +21,9 @@ tools:
   - item: Git & Github
   - item: Power BI
   - item: Jupyter Notebook
+  - item: AWS
+  - item: Azure
+  - item: Databricks
   
 
 business_analysis:
